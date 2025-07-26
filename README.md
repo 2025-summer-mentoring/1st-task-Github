@@ -26,8 +26,8 @@
 2. 변경 사항을 `git add .` 혹은 `git add [파일명]` 명령어를 통해 스테이징 시킨다.
 3. `git commit -m "(메모 내용)"`을 통해 커밋을 진행하여 로컬 레포지토리에 저장한다.
 4. `git push [remote 이름] [branch 이름]` 명령어로 해당 커밋들을 온라인 레포지토리에 push한다.
-5. Github에서 Compare & Pull request에서 Conversation을 작성하고 PR을 날린다.
-6. 검토를 거친 후 Approve를 통해 해당 PR을 승인할 수 있고 승인 시 승인한 브랜치로 변경 사항이 적용된다.
+5. Pull request에서 PR 메세지를 작성하고 PR을 날린다.
+6. 검토를 거친 후 Approve를 통해 해당 PR을 승인할 수 있고 모두가 승인했을 시 Merge를 진행하게 되는데, 이때 Merge가 되었다면 변경 사항이 적용된다.
 
 **Github -> Git -> Github**
 1. 수정할 레포지토리를 fork하여 내 레포지토리로 복제 한다.
